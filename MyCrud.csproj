@@ -9,6 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="Google.Cloud.Spanner.Data" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Serilog" Version="3.1.0-dev-02083" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
   </ItemGroup>
 
   <ItemGroup>
